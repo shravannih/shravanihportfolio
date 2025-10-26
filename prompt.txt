@@ -1,0 +1,140 @@
+create a perosnal profolio website using tailwind css cdn 
+below are my resume detaild for the portfolio website
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My Name : SHRAVANI D. HATE 
+Information Technology student || 8454054351 
+WORLI, MUMBAI,shravanihate@gmail.com 
+INTRODUCTION: 
+I am a recent graduate in Information Technology with a strong passion for the IT industry. I 
+have a keen interest in Data Analytics and Data Science, and I am enthusiastic about exploring 
+how data can be leveraged to drive smart decision-making and innovation. I enjoy working with 
+data, uncovering patterns, and transforming complex information into meaningful insights. 
+Currently, I am focused on building my skills in Python, SQL, data visualization (using tools like 
+Power BI/Excel/Tableau), and machine learning. I’m eager to contribute to real-world projects 
+and continuously grow in the ever-evolving tech landscape. 
+#EDUCATION: 
+ Guru Nanak Khalsa College Of Arts, Science and Commerce 
+Bachelor of science, INFORMATION TECHNOLOGY      
+ MAHARASHTRA STATE BOARD (X AND XII) 
+ SSC PERCENTAGE: 80% | 2019 
+ HSC PERCENTAGE:86% | 2021 
+#CERTIFICATE: 
+ Did Ms-CIT, secured 92% 
+ Completion of course in C and C++ 
+#TECHNICAL SKILLS:  (display these in icons and logos)
+ADVANCE: 
+ Programming languages 
+C, C++, PYTHON,   Basic CORE JAVA 
+ Web develpment 
+HTML, CSS, JavaScript 
+ Data Analysis And Data Science 
+Excel, power BI 
+ Artificial Intelligence and Machine Learning 
+ Data sturcture and Algorithm 
+INTERMEDIATE: 
+ Database Management 
+SQL,ORACLE 
+ Computer Network 
+IP/TCP,HTTP,DNS,DHCP 
+ Graphics and Animations and Embedded Systems 
+#PROJECT WORKS: 
+1. Spam Dection system using machine learning. 
+It classifies messages into spam or ham  using Natural Language Processing and ML 
+Used text vectorizer ti convert text into numerical, Trained multinomial Naive bayers 
+model  
+Tool and Technologies:- Python (Pandas, scikit-learn),tfidfVectorizer,Naive Bayes 
+2. Agro Market 
+Agro Market is a website for farmers and dealers to buy and sell the products online 
+basically an online implementation of APMC market(mandi bazar) where a farmer can 
+sells his products in wholesale and the buyer can bidd on it and buy the product. Also has 
+an Chatbot for easy access. Agro market has a verification for fraud and dummy persona. 
+Tech stack:- Tailwind css, Django(using python) SQLite,strip for payment gateway 
+3. Health checkup is a website for heart patients to track and store their health realted 
+infomation.This system digitizes the way medical information(blood pressure) stores and 
+retrieved with a single click 
+Tech stack used: HTML, CSS AND JavaScript. 
+4. Travel.com is the travel friendly platform for the people who loves to explore, where a 
+user can explore and learn more about the itinerary and place siting at their comfort place 
+and book a destination place for their seemless holidays. 
+Tech stack used: HTML,CSS AND JavaScript. 
+5. To Do List is a program to manage your things that has to be done in a day. This pins and 
+reminds you to complete the mentioned task and note the points. 
+Tech stack used: python, software application used vs code.  
+6. AmazonClone. it is an ecommerce website where a person can buy certain products it has a feature of QRcode scaning 
+cart, debet card payment, product listing, ratings, authentication for shopowee the user(make it 120 words) 
+-cart.png 
+-productlisting.png 
+-card.png 
+-gpay.png
+-login.png
+-register.png
+
+
+
+
+
+
+reference style index.html code
+''''
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Olivia Wilson - Social Media Influencer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #f8f4ef;
+      font-family: 'Arial', sans-serif;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+
+  <div class="max-w-4xl bg-[#f8f4ef] rounded-xl shadow-lg p-8 flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-10 border border-gray-200">
+    
+    <!-- Left: Text content -->
+    <div class="flex-1 text-center md:text-left">
+      <h1 class="text-4xl font-semibold text-[#4b3b2c] mb-4">
+        <span class="font-[cursive] text-5xl">Olivia Wilson</span>
+      </h1>
+      <p class="text-gray-700 mb-4">I'm a content creator and social media influencer since 6 years ago.</p>
+      <p class="text-gray-700 mb-4">With my 6 years experience on building communication on social media, I can help your business to grow.</p>
+      <p class="text-gray-700 mb-4">I can't wait to see what we can create together in the future.</p>
+      <a href="https://www.reallygreatsite.com" class="text-[#4b3b2c] font-semibold hover:underline">www.reallygreatsite.com</a>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="relative">
+      <div class="w-72 h-80 bg-[#a78b73] absolute top-6 left-6 rounded-md -z-10"></div>
+      <img src="356eadfa-72a9-4fb5-a574-a77bf2487a3c.png" alt="Olivia Wilson" class="w-72 h-80 object-cover rounded-md shadow-md border border-gray-200" />
+    </div>
+
+  </div>
+
+</body>
+</html>
+
+''''
